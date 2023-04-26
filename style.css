@@ -1,0 +1,74 @@
+html{
+    background-color: gold;
+    width:940px;
+}
+
+
+
+.again{
+    width:20%;
+    height:30px;
+    display:flex;
+    justify-content: center;
+    background-color: rgb(190, 133, 48);
+    color:azure;
+    font-weight: bold;
+    cursor:pointer;
+    margin:15px;
+}
+
+.titulo-jogo{
+    font-size: 35px;
+    display:flex;
+    text-align: center;
+    display:inline-block;
+    color:rgb(118, 105, 34);
+    
+}
+
+.img-genio{
+    width:20%;
+    margin-left: 650px;
+    margin-top:-100px;
+}
+
+main{
+    margin-top:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+
+.titulo-ponto{
+    font-weight: bold;
+    color:rgb(186, 114, 26)
+}
+
+.ponto{
+    font-weight: bold;
+    color:rgb(186, 114, 26);
+    font-size:20px;
+}
+
+.in{
+    display:block;
+    margin: 15px;
+}
+
+#label{
+    font-size:20px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    margin:15px
+}
+
+#input-num{
+    width:15%;
+    height:60px;
+}
+
+.check{
+    width:16%;
+    height:40px;
+    margin-left:15px;
+}
